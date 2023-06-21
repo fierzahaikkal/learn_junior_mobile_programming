@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PboAndroid"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.ListViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.NegaraActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.ListViewDataActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.LoginFormActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.RelativeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.LinearActivity"
+            android:parentActivityName=".activities.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LatihanIntentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.PindahActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.KalkulatorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

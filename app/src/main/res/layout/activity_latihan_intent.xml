@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="200px"
+    tools:context=".activities.LatihanIntentActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="belajar android"/>
+
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:src="@drawable/gundarlogo"/>
+
+    <EditText
+        android:id="@+id/kata"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="200px"
+        android:layout_height="wrap_content"
+        android:hint="masukkan kata"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="input"
+        android:id="@+id/btnSubmit"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hasil"
+        android:text="hasil"/>
+
+
+
+</LinearLayout>
